@@ -45,7 +45,11 @@
     "pids",
     "linkea",
     "pipefail",
-    "Forhall"
+    "Forhall",
+    "linkee",
+    "linkeada",
+    "usás",
+    "linkear"
   ],
   "ignorePaths": [
     "node_modules",
