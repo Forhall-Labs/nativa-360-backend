@@ -42,7 +42,10 @@
     "Bloqueante",
     "commiteé",
     "classpath",
-    "pids"
+    "pids",
+    "linkea",
+    "pipefail",
+    "Forhall"
   ],
   "ignorePaths": [
     "node_modules",
