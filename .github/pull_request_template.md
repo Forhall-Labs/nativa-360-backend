@@ -6,9 +6,17 @@
 
 <!-- dev (integración) · main (producción) — borrar la que no aplique. -->
 
+## Issue relacionado
+
+<!-- "Closes #123" (o "Closes Forhall-Labs/otro-repo#123" si el issue vive en
+otro repo) para que GitHub linkee este PR al issue y lo cierre solo al
+mergear. Si el PR no cierra el issue todavía, usá "Relacionado con #123". -->
+
+Closes #
+
 ## Épica / HU relacionada
 
-<!-- Ej: Epic 1 · HU-1.2 — o "N/A" si es infraestructura/tooling. -->
+<!-- Ej: Epic 1 · HU-1.2 (MN360-00001) — o "N/A" si es infraestructura/tooling. -->
 
 ## Checklist
 

@@ -1,6 +1,10 @@
 # Flujo de trabajo
 
-1. Rama nueva desde `dev`: `git checkout -b feat/nombre-corto`.
+1. Rama nueva desde `dev`, linkeada al issue (aparece en el panel
+   "Development" del issue y se cierra solo al mergear el PR):
+   `gh issue develop <número> --checkout --base dev`. Si no usás `gh`, se
+   puede linkear a mano con el botón "Create a branch" del issue, o
+   simplemente escribiendo `Closes #<número>` en el PR (ver el template).
 2. Al commitear, un hook de pre-commit (husky + lint-staged) corre Prettier,
    ESLint y cspell sobre los archivos modificados — si algo no pasa, el
    commit se cancela y hay que corregirlo antes de reintentar.
